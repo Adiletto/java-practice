@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"officeHours04_apr22","l":"ArrayOrder"},{"p":"officeHours04_apr22","l":"CheckIfInArray"}]

@@ -1,0 +1,38 @@
+package day09_StringEquals_Conditionals;
+
+public class StringEquals {
+
+	public static void main(String[] args) {
+	
+		String str1 = "java";
+		String str2 = "java";
+         // using ==
+		System.out.println(str1 == str2);  //true
+			System.out.println(str1 == "java");  //true
+				System.out.println(str2 == "Java");  //false
+				
+				
+				//equals method  PREFERRED WAY  <=====
+				
+				System.out.println(str1.equals(str2));   //true
+				System.out.println(str1.equals("java"));   //true
+				System.out.println(str2.equals("Java"));    //false
+		
+		
+		//String month = "March";
+		String month = new String("March");
+		String month2 = new String ("March");
+		
+		System.out.println(month == month2);
+		
+		// In the above example, Java is not doing values comparison. 
+		//It is just checking of month and month2 are pointing the same location in memory.	
+	
+	System.out.println(month.equals(month2));
+	System.out.println(month.equals("March"));
+		//Here, Java checking if values are same. Which is prover way of comparing strings.
+	
+	
+}
+
+}
